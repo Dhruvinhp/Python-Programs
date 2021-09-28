@@ -1,0 +1,4 @@
+2020-12-17 10:36:08.288331 : Jank food
+2020-12-17 10:37:04.424772 : Pizza, cold drink
+2020-12-17 10:38:17.774223 : vadapav, nachos, frenchfries, colddrink
+2020-12-17 10:55:12.320962 : kai nai

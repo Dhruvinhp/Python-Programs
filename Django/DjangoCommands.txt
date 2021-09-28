@@ -1,0 +1,20 @@
+Start project / create a django folder:   	      	django-admin startproject PROJECT_NAME 
+
+For Astablish server conection: 	      	python manage.py runserver
+
+Start program in App:     	                          	python manage.py startapp APP_NAME
+
+In settings.py in installed apps add APP_NAME
+
+Create url.py in App
+                    
+<!-- 
+    TO CONNECT FORM TO DATABASE e.g contact.html
+
+1. Models.py- create the Models / table (DATABASE)
+2. admin.py - register the models, import models
+3. apps.py - copy app name and paste in settings.py - installed apps
+4. terminal - makemigrations, migrate (python manage.py makemigrations, python manage.py migrate)
+5. views.py - on button click submit the filled data into the DATABASE
+              import Module, get form data
+-->

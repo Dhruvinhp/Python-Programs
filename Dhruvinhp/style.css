@@ -1,0 +1,47 @@
+a {
+    padding: 10px;
+    float: right;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50vh;
+    left: 70vh;
+    margin: auto;
+}
+
+.fa-search {
+    position: absolute;
+    padding: 7px;
+}
+
+#searchbox {
+    width: 400px;
+    height: 25px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 30px;
+}
+
+#submit {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.img{
+    position:absolute;
+    left: 330px;
+    width:500px;
+    margin: 100px;
+}

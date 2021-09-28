@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <script>
+        /*
+        document.addEventListener('DOMContentLoaded', function () {
+
+            //Set background color RED
+            document.querySelector('#red').onclick = function () {
+                document.querySelector('.body').style.background = 'red';
+            }
+
+            //Set background color BLUE
+            document.querySelector('#blue').onclick = function () {
+                document.querySelector('.body').style.background = 'blue';
+            }
+
+            //Set background color RED
+            document.querySelector('#green').onclick = function () {
+                document.querySelector('.body').style.background = 'green';
+            }
+        });
+        */
+
+        /*
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('button').forEach(function (button) //or button => 
+            {
+                button.onclick = function () {
+                    document.querySelector('.body').style.background = button.dataset.color;
+                }
+            });
+        });
+        */
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('select').onchange = function () {
+                document.querySelector('.body').style.background = this.value;
+            }
+        });
+
+    </script>
+</head>
+
+<body class="body" style="text-align: center;">
+    <h1 style='font-size:56px'> Hello! </h1>
+    <!--
+    <button id='red'>RED </button>
+    <button id='blue'>BLUE</button>
+    <button id='green'>GREEN</button>
+    -->
+    <!--
+    <button data-color='red'>RED </button>
+    <button data-color='blue'>BLUE</button>
+    <button data-color='green'>GREEN</button>
+    -->
+    <select style='font-size:24px;'>
+        <option value='white'>white</option>
+        <option value='red'>Red</option>
+        <option value='blue'>Blue</option>
+        <option value='green'>Green</option>
+        <option value='yellow'>Yellow</option>
+    </select>
+</body>
+
+</html>
